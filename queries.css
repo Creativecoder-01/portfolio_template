@@ -1,0 +1,221 @@
+/* MEDIA QUERIES */
+
+
+/* TABLET MODE */
+
+
+@media (min-width: 601px) and (max-width: 900px) {
+   .hero {
+      flex-direction: column;
+      text-align: center;
+      gap: 1.5rem;
+   }
+
+   .content h1 {
+      font-size: 2.2rem;
+   }
+
+   .content h1 span {
+      font-size: 1.8rem;
+   }
+
+   .content p {
+      font-size: 1.1rem;
+   }
+
+    .intro p {
+   font-size: 0.9rem;
+}
+
+   .grid {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+   }
+
+   .card {
+      width: 40%;
+   }
+
+   .form {
+      width: 60%;
+   }
+
+   form input, form textarea {
+      width: 90%;
+   }
+}
+
+
+/* MOBILE MODE */
+
+
+@media (min-width: 320px) and (max-width: 600px) {
+   
+   /* HEADER */
+
+   .container {
+      flex-direction: column;
+      text-align: center;
+      gap: 1rem;
+   }
+
+   nav {
+      width: 100%;
+   }
+
+   nav ul {
+      gap: 0.4rem;
+   } 
+
+
+/* HERO SECTION */
+
+.hero {
+   flex-direction: column;
+   text-align: center;
+   padding: 2rem 1rem;
+}
+
+.hero img {
+   width: 250px;
+   height: 250px;
+}
+
+.content h1 {
+   font-size: 2rem;
+}
+
+.content p {
+   font-size: 1rem;
+}
+
+/* ABOUT SECTION */
+
+.intro p {
+   font-size: 0.9rem;
+}
+
+
+/* PROJECT SECTION */
+
+.grid {
+   flex-direction: column;
+   gap: 2rem;
+}
+
+.card {
+   width: 60%;
+   height: auto;
+}
+
+/* CONTACT SECTION */
+
+.form {
+   width: 80%;
+}
+
+form input, form textarea {
+   width: 100%;
+}
+
+/* FOOTER */
+
+footer {
+   flex-direction: column;
+   gap: 0.5rem;
+}
+}
+
+
+/* SMALL MOBILE DEVICES */
+
+
+@media (max-width:390px) {
+   .container {
+      width: 100%;
+      justify-content: center;
+   }
+
+   nav ul {
+      justify-content: space-around;
+   }
+
+#home {
+   width:100%
+}
+
+.content h1 {
+    font-size: 2rem;
+}
+
+.content h1 span {
+    font-size: 2rem ;
+}
+
+.content p {
+    font-size: 1rem;
+}
+
+Img {
+    width: 300px;
+    height: 300px;
+}
+
+#About {
+     width: 100%;
+}
+         
+.intro p {
+   font-size: 0.9rem;
+}
+
+#Skill {
+    width: 100%;
+}
+
+.box {
+    width: 250px;
+    height: 200px;
+}
+
+.icon {
+    height: 4.8rem;
+    font-size: 5.5rem;
+    padding: 0.1rem 0;
+}
+
+.box h3 {
+     color: #fca311;
+}
+
+.box p {
+    text-align: center;
+    font-size: 0.7rem;
+}
+
+#Project {
+    width: 100%;
+}
+
+#Contact {
+    width: 100%;
+}
+
+.social-links i {
+   font-size: 1.1rem;
+}
+
+footer {
+    width: 100%;
+    margin-top: 0;
+}
+
+footer p {
+    font-size: 0.7rem;
+}
+
+.footer-links a {
+   font-size: 0.7rem;
+}
+}
